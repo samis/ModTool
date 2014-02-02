@@ -7,16 +7,17 @@ public class ModTool {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		initialise();
-		run();
+		ModTool modtool = new ModTool();
+		modtool.initialise();
+		modtool.run();
 	}
 
-	private static void run() {
+	private void run() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	private static void initialise() {
+	private void initialise() {
 		// TODO Auto-generated method stub
 		
 	}
