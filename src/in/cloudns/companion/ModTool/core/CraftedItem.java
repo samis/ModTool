@@ -3,6 +3,16 @@ package in.cloudns.companion.ModTool.core;
 public class CraftedItem extends Item implements Craftable {
     private Object[][] crafting_recipe = new Item[2][2];
 
+    public CraftedItem(String name, int cost, Object[][] crafting_recipe) {
+	super(name, cost);
+	this.crafting_recipe = crafting_recipe;
+    }
+
+    @Override
+    public int getCost() {
+	return CostCalculator.calculateCost(crafting_recipe);
+    }
+
     /* (non-Javadoc)
      * @see in.cloudns.companion.ModTool.core.Craftable#getCrafting_recipe()
      */
@@ -17,16 +27,6 @@ public class CraftedItem extends Item implements Craftable {
     @Override
     public void setCrafting_recipe(Object[][] crafting_recipe) {
 	this.crafting_recipe = crafting_recipe;
-    }
-
-    public CraftedItem(String name, int cost, Object[][] crafting_recipe) {
-	super(name, cost);
-	this.crafting_recipe = crafting_recipe;
-    }
-
-    @Override
-    public int getCost() {
-	return CostCalculator.calculateCost(crafting_recipe);
     }
 
 }
