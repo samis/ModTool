@@ -10,6 +10,7 @@ public class Item {
 	this.name = name;
 	this.cost = cost;
     }
+
     public Item() {
 	this("No Item", 0);
     }
@@ -22,7 +23,8 @@ public class Item {
     }
 
     /**
-     * @param name the item's name
+     * @param name
+     *            the item's name
      */
     public void setName(String name) {
 	this.name = name;
@@ -36,7 +38,8 @@ public class Item {
     }
 
     /**
-     * @param cost the cost to set
+     * @param cost
+     *            the cost to set
      */
     public void setCost(int cost) {
 	this.cost = cost;

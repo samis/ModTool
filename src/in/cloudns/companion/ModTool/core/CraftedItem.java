@@ -11,8 +11,9 @@ public class CraftedItem extends Item {
 	this.crafting_recipe = crafting_recipe;
     }
 
-    public CraftedItem() {
-	// TODO Auto-generated constructor stub
+    public CraftedItem(String name, int cost, Item[][] crafting_recipe) {
+	super(name, cost);
+	this.crafting_recipe = crafting_recipe;
     }
 
     @Override
