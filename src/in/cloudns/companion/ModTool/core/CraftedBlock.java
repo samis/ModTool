@@ -6,7 +6,7 @@ public class CraftedBlock extends Block implements Craftable{
     }
 
     @Override
-    public Item[][] getCrafting_recipe() {
+    public Object[][] getCrafting_recipe() {
 	// TODO Auto-generated method stub
 	return null;
     }

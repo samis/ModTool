@@ -19,7 +19,7 @@ public class CraftedItem extends Item implements Craftable {
 	this.crafting_recipe = crafting_recipe;
     }
 
-    public CraftedItem(String name, int cost, Item[][] crafting_recipe) {
+    public CraftedItem(String name, int cost, Object[][] crafting_recipe) {
 	super(name, cost);
 	this.crafting_recipe = crafting_recipe;
     }
