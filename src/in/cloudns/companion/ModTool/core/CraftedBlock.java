@@ -1,7 +1,6 @@
 package in.cloudns.companion.ModTool.core;
 
 public class CraftedBlock extends Block implements Craftable{
-
     public CraftedBlock() {
 	// TODO Auto-generated constructor stub
     }
@@ -13,7 +12,7 @@ public class CraftedBlock extends Block implements Craftable{
     }
 
     @Override
-    public void setCrafting_recipe(Item[][] crafting_recipe) {
+    public void setCrafting_recipe(Object[][] crafting_recipe) {
 	// TODO Auto-generated method stub
 	
     }
