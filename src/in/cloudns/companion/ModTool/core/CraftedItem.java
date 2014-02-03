@@ -1,12 +1,20 @@
 package in.cloudns.companion.ModTool.core;
 
-public class CraftedItem extends Item {
+public class CraftedItem extends Item implements Craftable {
     private Item[][] crafting_recipe = new Item[2][2];
 
+    /* (non-Javadoc)
+     * @see in.cloudns.companion.ModTool.core.Craftable#getCrafting_recipe()
+     */
+    @Override
     public Item[][] getCrafting_recipe() {
 	return crafting_recipe;
     }
 
+    /* (non-Javadoc)
+     * @see in.cloudns.companion.ModTool.core.Craftable#setCrafting_recipe(in.cloudns.companion.ModTool.core.Item[][])
+     */
+    @Override
     public void setCrafting_recipe(Item[][] crafting_recipe) {
 	this.crafting_recipe = crafting_recipe;
     }
