@@ -5,6 +5,15 @@ public class Item {
     private String name;
     private int cost;
 
+    public Item(String name, int cost) {
+	super();
+	this.name = name;
+	this.cost = cost;
+    }
+    public Item() {
+	this("No Item", 0);
+    }
+
     /**
      * @return the name of the item
      */
