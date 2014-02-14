@@ -1,2 +1,4 @@
-*.class
-*.mushroom
+lib/
+bin/
+.idea/workspace.xml
+out/
