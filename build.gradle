@@ -6,6 +6,6 @@ repositories {
 
 dependencies {
     compile fileTree(dir: 'lib/jspf', include: '*.jar')
-    'log4j:log4j:1.2.17'
-    'com.thoughtworks.xstream:xstream:1.4.3'
+    compile 'log4j:log4j:1.2.17'
+    compile 'com.thoughtworks.xstream:xstream:1.4.3'
 }
