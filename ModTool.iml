@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lib" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -22,8 +23,6 @@
     <orderEntry type="library" exported="" name="Gradle: jspf.remote.lipermi-1.0.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: jspf.remote.xmlrpc-1.0.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: jspf.remote.xmlrpcdelight-1.0.2" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: log4j-1.2.17" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: xstream-1.4.3" level="project" />
   </component>
 </module>
 

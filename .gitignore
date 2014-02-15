@@ -1,4 +1,6 @@
-lib/
+lib/jspf/api
 bin/
 .idea/workspace.xml
 out/
+build/
+.gradle/
