@@ -13,46 +13,17 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/lib/log4j" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="file://$MODULE_DIR$/lib/log4j/apidocs" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/lib/log4j/main/java" />
-          <root url="file://$MODULE_DIR$/lib/log4j/main/javadoc" />
-        </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/lib/log4j" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/lib/xstream" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/lib/xstream" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/lib/jspf" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="file://$MODULE_DIR$/lib/jspf/api" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/lib/jspf" />
-        </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/lib/jspf" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/lib/jspf" recursive="false" type="SOURCES" />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" exported="" name="Gradle: jspf.core-1.0.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jspf.remote-1.0.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jspf.remote.discovery-1.0.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jspf.remote.ermi-1.0.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jspf.remote.javascript-1.0.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jspf.remote.json-1.0.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jspf.remote.lipermi-1.0.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jspf.remote.xmlrpc-1.0.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jspf.remote.xmlrpcdelight-1.0.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: log4j-1.2.17" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: xstream-1.4.3" level="project" />
   </component>
 </module>
 

@@ -1,1 +1,11 @@
 apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile fileTree(dir: 'lib/jspf', include: '*.jar')
+    compile fileTree(dir: 'lib/log4j', include: '*.jar')
+    compile fileTree(dir: 'lib/xstream', include: '*.jar')
+}
