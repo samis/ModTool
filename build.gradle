@@ -9,3 +9,7 @@ dependencies {
     compile 'log4j:log4j:1.2.17'
     compile 'com.thoughtworks.xstream:xstream:1.4.3'
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion= '1.10'
+}
